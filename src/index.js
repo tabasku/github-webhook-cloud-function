@@ -1,6 +1,6 @@
 const github = require('./util/github');
 const HTTPError = require('./util/httpError');
-const { githubToTrello: handler } = require('./handler/githubToTrello');
+const { githubToPubSub: handler } = require('./handler/githubToPubSub');
 
 /**
  * HTTP Cloud Function for GitHub Webhook events.
